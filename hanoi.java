@@ -25,5 +25,15 @@ public class hanoi {
 // 	hanoi(n-1,start,end,mid);
 // 	System.out.println(n+"Из"+start+«К»+end);
 // 	hanoi(n-1,mid,start,end);
-	
+
+// static void hanoi(int n, int i, int k, int tmp) {
+// 	if(n==1) { /* Крайний случай, когда остался последний блин */
+// 		System.out.println("Переместить диск 1 c оси %d на %d.\n", i, k);
+// 	}
+//  else {
+// 	hanoi(n-1, i, tmp); /*пирамиду высотой n-1 перекладываем с i на temp*/
+// 	
+//  System.out.println("Переместить диск %d c оси %d на %d.\n", n, i, k);
+// 	hanoi(n-1, tmp, k);
+//  }
 }
